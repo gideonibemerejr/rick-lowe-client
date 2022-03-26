@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.env
+.jest-test-results.json
+
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/
+.yarnrc
+
+# testing
+/coverage
+
+# production
+dist/
+build/
+storybook-static/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea/
+
+.vscode/
+.htaccess
